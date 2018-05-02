@@ -5,16 +5,17 @@
     <link rel="stylesheet" href="/main.css" />
 </head>
 <body>
-    <h1>All Stores  <a href="/coffee/addstore"> (Add a Store) </a> </h1>
-
-
+    <h1>All Stores </h1>
+    <a href="/coffee/addstore"> (Add a Store) </a>
     <table>
         <thead>
         <th>Store Name</th>
+        <th></th>
         </thead>
         {{#coffeeStores}}
         <tr>
             <td> <a href="/coffee/{{id}}/menu"> {{storeName}} </a> </td>
+            <td> <a href="/coffee/{{id}}/addCoffee"> Add Coffee </a> </td>
         </tr>
         {{/coffeeStores}}
     </table>

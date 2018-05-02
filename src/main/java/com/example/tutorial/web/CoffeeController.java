@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -50,6 +49,20 @@ public class CoffeeController {
     @PostMapping("coffee/addstore")
     public String addStore(@ModelAttribute CoffeeStoreDto storeDto) {
         coffeeStoreService.saveCoffeeStore(storeDto.getName());
+        return "redirect:/coffee";
+    }
+
+    @GetMapping("coffee/{storeId}/addCoffee")
+    public String addCoffeePage(@PathVariable("storeId") Long storeId, Model model) {
+        CoffeeStore coffeeStoreById = coffeeStoreService.getCoffeeStoreById(storeId);
+        model.addAttribute("coffeeStoreName", coffeeStoreById.getStoreName());
+        model.addAttribute("storeId", coffeeStoreById.getId());
+        return "add_coffee";
+    }
+
+    @PostMapping("coffee/{storeId}/addCoffee")
+    public String addCoffee(@ModelAttribute CoffeeDto coffeeDto, @PathVariable("storeId") Long storeId) {
+        coffeeStoreService.saveCoffee(storeId, coffeeDto);
         return "redirect:/coffee";
     }
 }

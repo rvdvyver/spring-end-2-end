@@ -3,6 +3,7 @@ package com.example.tutorial.service;
 import com.example.tutorial.model.Coffee;
 import com.example.tutorial.model.CoffeeStore;
 import com.example.tutorial.repository.CoffeeStoreRepository;
+import com.example.tutorial.web.CoffeeDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import javax.annotation.PostConstruct;
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CoffeeStoreService {
@@ -54,5 +56,19 @@ public class CoffeeStoreService {
         CoffeeStore coffeeStore = new CoffeeStore();
         coffeeStore.setStoreName(name);
         coffeeStoreRepository.save(coffeeStore);
+    }
+
+    public void saveCoffee(Long storeId, CoffeeDto coffeeDto) {
+        Optional<CoffeeStore> store = coffeeStoreRepository.findById(storeId);
+
+        Coffee coffee = new Coffee();
+        coffee.setDescription(coffeeDto.getDescription());
+        coffee.setCoffeeName(coffeeDto.getName());
+        coffee.setPrice(new BigDecimal(coffeeDto.getPrice()));
+
+        store.ifPresent(coffeeStore -> {
+            coffeeStore.getCoffeeList().add(coffee);
+            coffeeStoreRepository.save(coffeeStore);
+        });
     }
 }
