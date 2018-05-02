@@ -7,7 +7,7 @@ In the last exercise, we got the ViewResolver just to resolve to the default lan
 3. Add the @Controller annotation to the class
 4. Create a method with called showMenu that returns a String and accepts has one parameter of type Model.
 Then annotate the method with the @GetMapping("coffee/menu") annotation
- 
+
 When done it should look something like.
 ```java
 @GetMapping("coffee/menu") 
@@ -24,9 +24,7 @@ To achieve this, we simply add the name as an attribute to the model. Like this:
 ```
 
 6. Now we are ready to add the custom page.
-We know that the name of the page should be "menu", (that the view name we return from the controller)
-- Now we need to create a view file. Create menu.html 
- in the templates folder.
+We know that the name of the page should be "menu", (that the view name we return from the controller)  Create Next, create menu.html in the templates folder.
 
 7. Paste the following HTML into the file.
 
