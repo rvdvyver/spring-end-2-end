@@ -14,4 +14,4 @@
 7. The test should run successfully 
 
 
-[Next Exercise](../blob/master/exercise2.md)
+[Next Exercise](../master/exercise2.md)
