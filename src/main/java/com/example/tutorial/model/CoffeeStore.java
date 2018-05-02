@@ -19,9 +19,6 @@ public class CoffeeStore {
     @OneToMany(cascade = CascadeType.ALL)
     private List<Coffee> coffeeList;
 
-    public CoffeeStore() {
-    }
-
     public Long getId() {
         return id;
     }

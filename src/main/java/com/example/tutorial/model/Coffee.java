@@ -16,9 +16,6 @@ public class Coffee {
     private String description;
     private BigDecimal price;
 
-    public Coffee() {
-    }
-
     public Long getId() {
         return id;
     }
