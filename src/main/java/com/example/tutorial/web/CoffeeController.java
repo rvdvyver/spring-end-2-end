@@ -22,8 +22,10 @@ public class CoffeeController {
     @GetMapping("coffee/menu")
     public String showCoffees(Model model) {
         CoffeeStore store = coffeeStoreService.getCoffeeStoreById(0L);
-        model.addAttribute("coffeeStoreName",store.getStoreName());
+
+        model.addAttribute("coffeeStoreName", store.getStoreName());
         model.addAttribute("coffees", store.getCoffeeList());
+
         return "menu";
     }
     

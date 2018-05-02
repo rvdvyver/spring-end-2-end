@@ -3,7 +3,6 @@ package com.example.tutorial.model;
 import java.math.BigDecimal;
 
 public class Coffee {
-
     private Long id;
     private String coffeeName;
     private String description;
