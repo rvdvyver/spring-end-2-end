@@ -1,4 +1,4 @@
-Excercise 2 - Hello World
+# Excercise 2 - Hello World
 
 We need to add a dependency to start using mustache templating.
 1. Located in your project root is a pom.xml file. Add to the dependencies tag the following:
@@ -37,3 +37,5 @@ Add the following HTML:
 "FrameworkServlet 'dispatcherServlet': initialization completed in..."
 
 5. In any browser, browse to http://localhost:8080/. You should see the text "Hello World" display.
+
+[Next Exercise](../master/exercise3.md)
