@@ -1,6 +1,7 @@
 # Excercise 2 - Hello World
 
-We need to add a dependency to start using mustache templating.
+## In the section we will setup mustache templating and create a landing page for our application.
+To start using mustache templating, we need to add another dependency 
 1. Located in your project root is a pom.xml file. Add to the dependencies tag the following:
 ```xml
 <dependency>
@@ -38,4 +39,4 @@ Add the following HTML:
 
 5. In any browser, browse to http://localhost:8080/. You should see the text "Hello World" display.
 
-[Next - Adding a Menu](../master/documents/exercise3.md)
+[Next - Adding a Menu](../documents/exercise3.md)

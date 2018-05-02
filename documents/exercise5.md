@@ -1,5 +1,6 @@
-## Exercise 5 - Retrieve Something
+# Exercise 5 - Retrieve Something
 
+## TODO
 1. Update the Entities
 * To both of our domain model objects (Coffee and CoffeeStore) add the following annotation on class level.
 ```
@@ -54,11 +55,4 @@ coffeeStoreRepository.save(coffeeStore);
 6. Run the application and take note that the URL also changed now.
 Browse to http://localhost:8080/coffee/1/menu, you should see the coffee store that was retrieved from the database. **Congratulations! You created an End to End Spring Application!** 
 
-7. Now it is your turn to take the steering wheel. For the last step(s) Implement a new page that will return all the shop names. 
-* You need to create your own HTML page.
-* Add a method in your controller to resolve that page.
-* Add the attributes to the page.
-* Add a new method in your service layer that returns all the stores. (Tip: Use the coffeeStoreRepository.findAll() method)
-
-
-[Next Exercise](../documents/exercise5.md)
+[Next Exercise](../documents/exercise6.md)
