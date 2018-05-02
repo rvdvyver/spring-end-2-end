@@ -7,5 +7,20 @@
 <body>
     <h1>{{coffeeStoreName}}</h1>
 
+    <table>
+        <thead>
+        <th> Menu </th>
+        <th> Description </th>
+        <th> Price </th>
+        </thead>
+        {{#coffees}}
+        <tr>
+            <td> {{coffeeName}} </td>
+            <td> {{description}} </td>
+            <td> {{price}} </td>
+
+        </tr>
+        {{/coffees}}
+    </table>
 </body>
 </html>
