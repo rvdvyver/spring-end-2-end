@@ -38,4 +38,4 @@ Add the following HTML:
 
 5. In any browser, browse to http://localhost:8080/. You should see the text "Hello World" display.
 
-[Next Exercise](../master/exercise3.md)
+[Next Exercise](../master/documents/exercise3.md)

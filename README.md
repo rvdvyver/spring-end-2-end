@@ -3,10 +3,8 @@
 ## TODO - OVERVIEW
 
 ## Index
-1. [Setup](../master/exercise1.md)
-2. [Hello World](../master/exercise2.md)
-3. [A Custom Page](../master/exercise3.md) ([Optional - CSS](../master/optional-css.md))
-4. [Service Layer ](../master/exercise4.md)
+1. [Setup](../master/documents/exercise1.md)
+2. [Hello World](../master/documents/exercise2.md)
+3. [A Custom Page](../master/documents/exercise3.md) ([Optional - CSS](../master/documents/optional-css.md))
+4. [Service Layer ](../master/documents/exercise4.md)
 
-
-[Start Here](../master/exercise1.md)

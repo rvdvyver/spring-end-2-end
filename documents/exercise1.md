@@ -11,3 +11,4 @@
 6. To test that everything is indeed working: Run the TutorialApplicationTests located in src -> test -> java -> com -> example -> tutorial
 7. The test should run successfully 
 
+4. [Hello World](../master/documents/exercise2.md)
