@@ -49,4 +49,10 @@ public class CoffeeStoreService {
 
         LOGGER.info(coffeeStore.getStoreName() + " 's id is " + coffeeStore.getId());
     }
+
+    public void saveCoffeeStore(String name) {
+        CoffeeStore coffeeStore = new CoffeeStore();
+        coffeeStore.setStoreName(name);
+        coffeeStoreRepository.save(coffeeStore);
+    }
 }
