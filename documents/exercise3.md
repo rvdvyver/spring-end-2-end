@@ -1,4 +1,4 @@
-# Exercise 3 - a Custom Page
+# Exercise 3 - Adding a menu
 
 In the last exercise, we got the ViewResolver just to resolve to the default landing page. This time let us create a custom page with a message populated by the back end.
 
