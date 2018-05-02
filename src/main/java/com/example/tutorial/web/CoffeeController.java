@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Arrays;
 
@@ -19,9 +20,9 @@ public class CoffeeController {
         this.coffeeStoreService = coffeeStoreService;
     }
 
-    @GetMapping("coffee/menu")
-    public String showCoffees(Model model) {
-        CoffeeStore store = coffeeStoreService.getCoffeeStoreById(0L);
+    @GetMapping("coffee/{id}/menu")
+    public String showCoffees(Model model, @PathVariable("id") Long id) {
+        CoffeeStore store = coffeeStoreService.getCoffeeStoreById(id);
 
         model.addAttribute("coffeeStoreName", store.getStoreName());
         model.addAttribute("coffees", store.getCoffeeList());

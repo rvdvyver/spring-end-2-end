@@ -1,12 +1,23 @@
 package com.example.tutorial.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 
+@Entity
 public class Coffee {
+
+    @Id
+    @GeneratedValue
     private Long id;
+
     private String coffeeName;
     private String description;
     private BigDecimal price;
+
+    public Coffee() {
+    }
 
     public Long getId() {
         return id;
