@@ -1,3 +1,5 @@
+# Exercise 4 - Service Layer
+
 In the last exercise, we displayed our coffee store name, by populating the attribute directly in the controller. 
 
 Let us now introduce a service layer and add a model to represent a coffee store. Lastly, we will use that service layer to populate our attributes.
