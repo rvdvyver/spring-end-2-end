@@ -42,20 +42,20 @@ Here is a sneak peek at the HTML you might need.
 
 ```
 <table>
-        <thead>
-        <th> Menu </th>
-        <th> Description </th>
-        <th> Price </th>
-        </thead>
-        {{#coffees}}
-        <tr>
-            <td> {{name}} </td>
-            <td> {{description}} </td>
-            <td> {{price}} </td>
+    <thead>
+    <th> Menu </th>
+    <th> Description </th>
+    <th> Price </th>
+    </thead>
+    {{#coffees}}
+    <tr>
+        <td> {{name}} </td>
+        <td> {{description}} </td>
+        <td> {{price}} </td>
 
-        </tr>
-        {{/coffees}}
-    </table>
+    </tr>
+    {{/coffees}}
+</table>
 ```
 
 [Next Exercise](../documents/exercise5.md)

@@ -1,5 +1,5 @@
 # Exercise 1 - Setup 
-## In this section we will create a new Spring Boot Project. We will use this for the rest of the exercises.
+## In this section we will create a new Spring Boot Project. 
 1. Browse to https://start.spring.io/
 2. On the page set the following: 
       * Ensure the project is set to Generate a Java, Maven Project with Spring Boot 2.0.1
