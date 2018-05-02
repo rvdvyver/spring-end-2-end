@@ -1,3 +1,4 @@
+Excercise 2 - Hello World
 
 We need to add a dependency to start using mustache templating.
 1. Located in your project root is a pom.xml file. Add to the dependencies tag the following:
