@@ -1,6 +1,6 @@
 # Exercise 3 - Adding a menu
 
-In the last exercise, we got the ViewResolver just to resolve to the default landing page. This time let us create a custom page with a message populated by the back end.
+## In the last exercise, we got the ViewResolver just to resolve to the default landing page. In this exercise let us create a custom page with a message populated from the back end.
 
 1. Create a new java package called: "web".
 2. In the package create a new Java class called CoffeeController
@@ -44,4 +44,4 @@ You will notice that this is not JUST HTML. There is also the mustache's syntax 
 8. You can now re-run the application and browse to "http://localhost:8080/coffee/menu".  You should see a white page with the title of your coffee store.
 
 
-[Next Exercise](../master/documents/exercise4.md)
+[Next Exercise - Service Layer](../documents/exercise4.md)
