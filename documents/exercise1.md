@@ -1,4 +1,5 @@
-## Exercise 1 - Setup 
+# Exercise 1 - Setup 
+## In this section we will create a new Spring Boot Project. We will use this for the rest of the exercises.
 1. Browse to https://start.spring.io/
 2. On the page set the following: 
       * Ensure the project is set to Generate a Java, Maven Project with Spring Boot 2.0.1
@@ -11,4 +12,4 @@
 6. To test that everything is indeed working: Run the TutorialApplicationTests located in src -> test -> java -> com -> example -> tutorial
 7. The test should run successfully 
 
-4. [Next - Hello World](../master/documents/exercise2.md)
+[Next - Hello World](../documents/exercise2.md)

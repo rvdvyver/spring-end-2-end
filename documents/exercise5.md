@@ -61,4 +61,4 @@ Browse to http://localhost:8080/coffee/1/menu, you should see the coffee store t
 * Add a new method in your service layer that returns all the stores. (Tip: Use the coffeeStoreRepository.findAll() method)
 
 
-[Next Exercise](../master/documents/exercise5.md)
+[Next Exercise](../documents/exercise5.md)

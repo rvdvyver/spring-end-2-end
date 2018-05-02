@@ -1,8 +1,6 @@
 # Exercise 4 - Service Layer
 
-In the last exercise, we displayed our coffee store name, by populating the attribute directly in the controller. 
-
-Let us now introduce a service layer and add a model to represent a coffee store. Lastly, we will use that service layer to populate our attributes.
+## In the last exercise, we displayed our coffee store name, by populating the attribute directly in the controller.  Let us now introduce a service layer and add some a models to represent our coffee stores. To wrap it up, we will use that service layer to populate our attributes.
 
 1. Create a new package called model.
 2. In the model package, create a new Java Class called coffee.
@@ -60,4 +58,4 @@ Here is a sneak peek at the HTML you might need.
     </table>
 ```
 
-[Next Exercise](../master/documents/exercise5.md)
+[Next Exercise](../documents/exercise5.md)
