@@ -12,3 +12,6 @@
 5. In Intelij open the pom.xml file located in the project root. Select the open as Project option.
 6. To test that everything is indeed working: Run the TutorialApplicationTests located in src -> test -> java -> com -> example -> tutorial
 7. The test should run successfully 
+
+
+[Next Exercise](../blob/master/exercise2.md)
