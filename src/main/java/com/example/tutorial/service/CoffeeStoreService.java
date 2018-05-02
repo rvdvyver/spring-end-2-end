@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import java.math.BigDecimal;
 import java.util.Arrays;
+import java.util.List;
 
 @Service
 public class CoffeeStoreService {
@@ -26,6 +27,11 @@ public class CoffeeStoreService {
     public CoffeeStore getCoffeeStoreById(Long id) {
         return coffeeStoreRepository.findById(id).get();
     }
+
+    public List<CoffeeStore> getAllCoffeeStores() {
+        return coffeeStoreRepository.findAll();
+    }
+
 
     @PostConstruct
     public void populateDatabase() {

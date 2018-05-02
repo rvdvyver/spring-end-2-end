@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body>
+    <h1>All Stores</h1>
+
+    <table>
+        <thead>
+        <th> Store Name </th>
+        </thead>
+        {{#coffeeStores}}
+        <tr>
+            <td> <a href="/coffee/{{id}}//menu"> {{storeName}} </a> </td>
+        </tr>
+        {{/coffeeStores}}
+    </table>
+</body>
+</html>

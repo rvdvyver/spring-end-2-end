@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Arrays;
+import java.util.List;
 
 @Controller
 public class CoffeeController {
@@ -29,5 +30,13 @@ public class CoffeeController {
 
         return "menu";
     }
-    
+
+    @GetMapping("coffee")
+    public String showAllStores(Model model) {
+        List<CoffeeStore> stores = coffeeStoreService.getAllCoffeeStores();
+
+        model.addAttribute("coffeeStores", stores);
+
+        return "all_stores";
+    }
 }
