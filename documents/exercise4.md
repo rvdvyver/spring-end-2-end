@@ -4,14 +4,14 @@
 ## Let us now introduce a service layer and add some Coffee to display on our menu.
 
 1. Create a new package called model.
-2. In the model package, create a new Java Class called coffee.
+2. In the model package, create a new Java class called Coffee.
    * Add the following types
      * Id (Long)
      * Name (String)
      * Description (String)
      * price (BigDecimal)
    * Then add the getters and setters.
-3. Also in the model package create a new Java Class called Store
+3. Also in the model package create a new Java class called CoffeeStore
    - Add the following types
      - Id (Long)
      - Name (String)
