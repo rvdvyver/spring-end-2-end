@@ -59,4 +59,6 @@ Here is a sneak peek at the HTML you might need.
 </table>
 ```
 
+10. When running your application you should now see a list of the coffees on the menu.
+
 [Next Exercise - Retrieve Something](../documents/exercise5.md)
