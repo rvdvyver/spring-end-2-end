@@ -16,7 +16,7 @@ The guide consists of a number of exercises that will show you how to -
 * Add Some coffees to the menu of any store
 
 
-## Indexª
+## Index
 1. [Setup](../master/documents/exercise1.md)
 2. [Hello World](../master/documents/exercise2.md)
 3. [Displaying a Store's Name](../master/documents/exercise3.md) 
