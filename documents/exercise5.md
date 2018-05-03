@@ -52,7 +52,7 @@ coffeeStoreRepository.save(coffeeStore);
 ```
 * Then use the id parameter instead of the hardcode id value to retrieve the store.
 
-6. Run the application and take note that the URL also changed now.
-Browse to http://localhost:8080/coffee/1/menu, you should see the coffee store that was retrieved from the database. **Congratulations! You created an End to End Spring Application!** 
+6. Run the application. Browse to http://localhost:8080/coffee/1/menu, you should see the coffee store that was retrieved from the database. 
+**Congratulations! You created an End to End Spring Application!** 
 
 [Next Exercise - Show all Store Names](../documents/exercise6.md)
