@@ -8,4 +8,4 @@
 * Add a new method (getAllCoffeeStores) in your service layer that returns a List of all the stores.  
 (Tip: Use the coffeeStoreRepository.findAll() method)
 
-[Next Exercise](../documents/exercise7.md)
+[Next Exercise - Add some Stores](../documents/exercise7.md)

@@ -38,4 +38,5 @@ String name;
 ```
  
 5. You should now be able to navigate to the add store page and a store. The store should then appear in the list of all stores.
-[Next Exercise - Add some Coffee] (../documents/exercise8.md)
+
+6. [Next Exercise - Add some Coffee](../documents/exercise8.md)

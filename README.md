@@ -1,8 +1,8 @@
-# Spring - From End To End - Quickstart
+# Spring Framework - From End To End - Quickstart
 
 
 ## This is a guide to create a Spring MVC based web application.
-The guide consists of a number of exercises that will show you how -
+The guide consists of a number of exercises that will show you how to -
 * Create a Spring Boot application
 * To display a dynamic HTML page, using mustache templating.
 * To introduce a service layer and then using the Spring Core features for code injection.
