@@ -1,6 +1,6 @@
 # Bonus sections
 
-## List of suggested features to add.
+## When you are done with all the exercises, Pick some of the following features to add - 
 
 ### Validation
 * Add some validation, when creating a coffee
@@ -9,15 +9,15 @@
 * Edit a Store Name
 * Edit the Coffee 
 
-## Delete
+### Delete
 * Delete a coffee
 * Delete a store
 
-## Exception Handling
+### Exception Handling
 * Provided a fall back page when encountering a exception. Look @ https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc
 
-## Advance
-* Provide a RestFul API for your coffee store menu managing system.
+### Advance
+* Provide a RestFul API for your coffee store menu managing system. (Have a look at @RestController)
 * Use Spring's RestTemplate to retrieve a list of coffee name from https://api.myjson.com/bins/1cs2d6
     * Use this when creating a coffee, instead of a text box to insert the name, have a dropdown box.
  
