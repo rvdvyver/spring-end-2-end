@@ -12,10 +12,10 @@ To start using mustache templating, we need to add another dependency
 ** Intelij will prompt you with a message: "Maven projects need to be imported:" Choose the "Enable Auto-Import" option.
 
 2.  Now we need to tell the View Resolver where it can find - All you need to do for this is add the following properties to your application.properties (located at: src->main->resources)
-
+```
  spring.mustache.prefix=classpath:templates/
  spring.mustache.suffix=.html
-
+```
 3. Add a file called index.html to the templates folder located at src->main->resources->templates
 
 Add the following HTML:
