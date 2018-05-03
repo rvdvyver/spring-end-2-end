@@ -15,7 +15,7 @@
    - Add the following types
      - Id (Long)
      - Name (String)
-     - List of Coffee Stores.
+     - List of Coffee.
      - Add the getters and setters.
 4. Create our CoffeeStoreService class in a newly created package called "services".
 5. Annotate the CoffeeStoreService class with the @Service annotation.
