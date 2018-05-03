@@ -24,6 +24,6 @@ The guide consists of a number of exercises that will show you how -
 4. [Service Layer](../master/documents/exercise4.md)
 5. [Retrieve Something](../master/documents/exercise8.md)
 6. [Show all Store Names](../master/documents/exercise7.md)
-8. [Add some Stores - Now at Runtime](../master/documents/exercise8.md)
-9. [Add some Coffee](../master/documents/exercise9.md)
+7. [Add some Stores - Now at Runtime](../master/documents/exercise8.md)
+8. [Add some Coffee](../master/documents/exercise9.md)
 
