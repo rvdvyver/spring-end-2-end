@@ -1,6 +1,6 @@
 # Exercise 5 - Retrieve Something
 
-## TODO
+## In this exercise, we will show how to populate the database and retrieve some results. 
 1. Update the Entities
 * To both of our domain model objects (Coffee and CoffeeStore) add the following annotation on class level.
 ```
@@ -55,4 +55,4 @@ coffeeStoreRepository.save(coffeeStore);
 6. Run the application and take note that the URL also changed now.
 Browse to http://localhost:8080/coffee/1/menu, you should see the coffee store that was retrieved from the database. **Congratulations! You created an End to End Spring Application!** 
 
-[Next Exercise](../documents/exercise6.md)
+[Next Exercise - Show all Store Names](../documents/exercise6.md)
