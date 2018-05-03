@@ -23,7 +23,7 @@
 ```
 public CoffeeStore getCoffeeStoreById(Long id) 
 ```
-7. Implement the login in the getCoffeeStoreById method. At this stage, just return single coffee store with a selection of coffees. (Ignore the id for now)
+7. Implement the getCoffeeStoreById method. At this stage, just return single coffee store with a selection of coffees. (Ignore the id for now)
 
 8. Go back to your Controller
 * Autowire in your previously created service. (Remember to use Constructor injection)
