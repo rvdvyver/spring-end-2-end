@@ -53,4 +53,4 @@ th {
 
 3. Done - Rerun the application and you should now have look to your storefront. (Marketing will be pleased!)
 
-[Next - Service Layer ](../master/documents/exercise4.md)
+* [Next Exercise - Service Layer](../documents/exercise4.md)
