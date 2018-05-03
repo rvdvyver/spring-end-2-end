@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body>
+    <h1>Add Coffee to {{coffeeStoreName}} </h1>
+    <form method="post" action="/coffee/{{storeId}}/addCoffee">
+        <input type="text" name="name" placeholder="Coffee Name"> </input>
+        <input type="text" name="description" placeholder="Description"> </input>
+        <input type="number" step=".01" name="price" placeholder="3.00"> </input>
+        <button type="submit"> Save the Coffee </button>
+    </form>
+</body>
+</html>
