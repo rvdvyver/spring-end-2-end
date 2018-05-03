@@ -39,4 +39,4 @@ Add the following HTML:
 
 5. In any browser, browse to http://localhost:8080/. You should see the text "Hello World" display.
 
-[Next - Adding a Menu](../documents/exercise3.md)
+[Next - Displaying a Store Name](../documents/exercise3.md)

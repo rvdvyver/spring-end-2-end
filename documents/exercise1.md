@@ -3,7 +3,7 @@
 1. Browse to https://start.spring.io/
 2. On the page set the following: 
       * Ensure the project is set to Generate a Java, Maven Project with Spring Boot 2.0.1
-      * Group: nl.gotoams 
+      * Group: nl.example
       * Artifact: tutorial
       * Use the search Dependency field to add the following: Web, JPA, H2, DevTools
 3. Hit the Generate Project Button. 

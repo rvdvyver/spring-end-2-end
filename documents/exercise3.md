@@ -1,5 +1,4 @@
-# Exercise 3 - Adding a menu
-
+# Exercise 3 - Displaying a Store Name
 ## In the last exercise, we got the ViewResolver just to resolve to the default landing page. In this exercise let us create a custom page with a message populated from the back end.
 
 1. Create a new java package called: "web".
