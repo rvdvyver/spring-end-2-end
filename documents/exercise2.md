@@ -1,5 +1,5 @@
 # Excercise 2 - Hello World
-
+## Creating a Landing Page.
 ## In the section we will setup mustache templating and create a landing page for our application.
 To start using mustache templating, we need to add another dependency 
 1. Located in your project root is a pom.xml file. Add to the dependencies tag the following:
@@ -9,7 +9,7 @@ To start using mustache templating, we need to add another dependency
     <artifactId>spring-boot-starter-mustache</artifactId>
 </dependency>
 ```
-** Intelij will promp you with a message: "Maven projects need to be imported:" Choose the "Enable Auto-Import" option.
+** Intelij will prompt you with a message: "Maven projects need to be imported:" Choose the "Enable Auto-Import" option.
 
 2.  Now we need to tell the View Resolver where it can find - All you need to do for this is add the following properties to your application.properties (located at: src->main->resources)
 
@@ -29,7 +29,7 @@ Add the following HTML:
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <h1>Coffee Store Inc.</h1>
 </body>
 
 </html>

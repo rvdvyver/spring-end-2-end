@@ -7,7 +7,7 @@
 3. Add the @Controller annotation to the class
 4. Create a method with called showMenu that returns a String and accepts has one parameter of type Model.
 Then annotate the method with the @GetMapping("coffee/menu") annotation
-
+__
 When done it should look something like.
 ```java
 @GetMapping("coffee/menu") 
