@@ -23,7 +23,7 @@ public class CoffeeController {
     }
 
     @GetMapping("coffee/{id}/menu")
-    public String showCoffees(Model model, @PathVariable("id") Long id) {
+    public String showMenu(Model model, @PathVariable("id") Long id) {
         CoffeeStore store = coffeeStoreService.getCoffeeStoreById(id);
 
         model.addAttribute("coffeeStoreName", store.getStoreName());
