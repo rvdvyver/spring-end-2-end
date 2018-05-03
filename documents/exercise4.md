@@ -9,7 +9,7 @@
      * Id (Long)
      * Name (String)
      * Description (String)
-     * price (BigDecimal)
+     * Price (BigDecimal)
    * Then add the getters and setters.
 3. Also in the model package create a new Java class called CoffeeStore
    - Add the following types
