@@ -43,5 +43,5 @@ You will notice that this is not JUST HTML. There is also the mustache's syntax 
 8. You can now re-run the application and browse to "http://localhost:8080/coffee/menu".  You should see a white page with the title of your coffee store.
 
 
-[Optional - CSS](../documents/optional-css.md)
-[Next Exercise - Service Layer](../documents/exercise4.md)
+* [Optional - CSS](../documents/optional-css.md)
+* [Next Exercise - Service Layer](../documents/exercise4.md)
