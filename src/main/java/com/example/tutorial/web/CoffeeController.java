@@ -61,7 +61,7 @@ public class CoffeeController {
     }
 
     @PostMapping("coffee/{storeId}/addCoffee")
-    public String addCoffee(@ModelAttribute CoffeeDto coffeeDto, @PathVariable("storeId") Long storeId) {
+    public String addCoffeeToStore(@ModelAttribute CoffeeDto coffeeDto, @PathVariable("storeId") Long storeId) {
         coffeeStoreService.saveCoffee(storeId, coffeeDto);
         return "redirect:/coffee";
     }
