@@ -19,7 +19,7 @@ public String showCoffees(Model model) {
 5. Next, we need to add that custom message we wish to display. In this case, it will be the Coffee Store's name. 
 To achieve this, we simply add the name as an attribute to the model. Like this:
 ```java
-  "model.addAttribute("coffeeStoreName","StarDucks");"
+  model.addAttribute("coffeeStoreName","StarDucks");
 ```
 
 6. Now we are ready to add the custom page.
